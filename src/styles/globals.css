@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+input, button {
+  outline: none;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  padding: 8px 15px;
+  border: none;
+  background: #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #0070f3;
+  color: white;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+}
+
+.taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.inputRow button {
+  padding: 10px 15px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border-left: 5px solid #0070f3;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: #999;
+  border-left-color: green;
+}
+
+li span {
+  cursor: pointer;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+}
